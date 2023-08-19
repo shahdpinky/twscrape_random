@@ -29,8 +29,8 @@ def guess_delim(line: str):
 
 
 class AccountsPool:
-    # _order_by: str = "RANDOM()"
-    _order_by: str = "username"
+    _order_by: str = "RANDOM()"
+    # _order_by: str = "username"
 
     def __init__(self, db_file="accounts.db"):
         self._db_file = db_file
